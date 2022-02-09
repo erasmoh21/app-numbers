@@ -18,8 +18,8 @@ export default function Botones() {
         <>
             <h1>{numero}</h1>
             <div className="contenedorBotones">
-                <button onClick={aumentar}>+</button>
-                <button onClick={disminuir}>-</button>
+                <button onClick={aumentar} className="botonAumentar">+</button>
+                <button onClick={disminuir} className="botonDisminuir">-</button>
             </div>
             <ValidarNumeroNegativo numero={numero}/>
             <ValidarNumeroPar numero={numero}/>
