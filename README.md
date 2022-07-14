@@ -37,4 +37,5 @@
 1. En la terminal inserte el siguiente comando -> git clone https://github.com/erasmoh24/app-numeros-react.git
 
 2. Una vez descargado ingresa a la carpeta app-numeros
-3. Una vez que este dentro de la carpeta, ingresa el nuevo comando -> npm start
+3. Ingrese el comando -> npm install
+4. Luego una vez que haya descargado las dependencias necesarias del proyecto con npm install, ingresa el nuevo comando -> npm start
